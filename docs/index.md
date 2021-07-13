@@ -62,20 +62,6 @@
 
 The default prefix for Friday's commands is `!`, and for commands to execute every command needs this prefix or the custom prefix that you can set with the [prefix](/commands/moderation/#prefix) command.
 
-<!-- [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
+### Slash commands
 
-<!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
+Friday also supports slash commands. To use these commands, go to any text channel and start typing `/`, you should be greeted with a list of commands from bots and builtin commands.
