@@ -2,7 +2,6 @@
 
 site_name: Friday Bot Docs
 site_url: https://docs.friday-bot.com
-docs_dir: /
 repo_url: https://github.com/Brettanda/friday-docs
 repo_name: brettanda/friday-docs
 edit_uri: ''
