@@ -33,6 +33,6 @@ If your server has a set chat channel useing the [`!set chatchannel`](/commands/
 
 ## Languages
 
-By default Friday can understand and speak a lot of languages, whether Friday actually will do this is not up to me unless you use the [`!set language [langauge]`](commands/moderation/#language) command.
+By default Friday can understand and speak a lot of languages, whether Friday actually will do this is not up to me unless you use the [`!set language [langauge]`](/commands/moderation/#language) command.
 
 If you have changes Friday's language to something other than English with the langauge command, Friday will speak two languages in the server that you used the command in. One of the languages will be the one that you chose and the other will be english.

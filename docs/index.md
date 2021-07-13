@@ -60,7 +60,7 @@
 
 ### Prefix
 
-The default prefix for Friday's commands is `!`, and for commands to execute every command needs this prefix or the custom prefix that you can set with the [prefix](commands/moderation/#prefix) command.
+The default prefix for Friday's commands is `!`, and for commands to execute every command needs this prefix or the custom prefix that you can set with the [prefix](/commands/moderation/#prefix) command.
 
 <!-- [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. -->
 
