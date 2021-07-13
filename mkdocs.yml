@@ -6,7 +6,6 @@ site_dir: site/
 docs_dir: docs/
 repo_url: https://github.com/Brettanda/friday-docs
 repo_name: brettanda/friday-docs
-edit_uri: ''
 copyright: Copyright &copy; 2020 - 2021 Brett Anda
 theme:
   name: material
