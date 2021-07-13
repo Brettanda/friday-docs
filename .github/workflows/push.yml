@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ${{ matrix.os }}
-    name: Will it build? ${{ matrix.os }}, Python ${{ matrix.python-verion}}
+    name: Build ${{ matrix.os }}, Python ${{ matrix.python-verion}}
     strategy:
       matrix:
         os: [ubuntu-latest]
