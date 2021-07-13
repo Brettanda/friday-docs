@@ -1,0 +1,43 @@
+name: Will it blend?
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    name: Will it build? ${{ matrix.os }}, Python ${{ matrix.python-verion}}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.8,3.9]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-verion: ${{ matrix.python-verion }}
+    - name: Cache dependencies
+      id: cache
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-friday-docs-dependencies
+      with:
+        path: |
+          ${{ env.pythonLocation}}/lib/python${{ matrix.python-version }}/site-packages/*
+          ~/venv
+        key: ${{ matrix.os }}-pip-${{ env.cache-name }}-${{ hashfiles('requirements.txt') }}
+        restore-keys: |
+          ${{ matrix.os }}-pip-${{ env.cache-name }}-
+          ${{ matrix.os }}-pip-
+          ${{ matrix.os }}-
+    - name: Install dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        python -m venv ~/venv
+        . ~/venv/bin/activate
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
+    - name: Build
+      run: |
+        . ~/venv/bin/activate
+        mkdocs build
