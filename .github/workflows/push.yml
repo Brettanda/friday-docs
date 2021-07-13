@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
     runs-on: ${{ matrix.os }}
-    name: Build ${{ matrix.os }}, Python ${{ matrix.python-verion}}
+    name: Build ${{ matrix.os }}, Python ${{ matrix.python-version}}
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -15,7 +15,7 @@ jobs:
     - name: Setup Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        python-verion: ${{ matrix.python-verion }}
+        python-version: ${{ matrix.python-version }}
     - name: Cache dependencies
       id: cache
       uses: actions/cache@v2
