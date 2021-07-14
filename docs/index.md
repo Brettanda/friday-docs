@@ -29,7 +29,7 @@
     !rockpaperscissors <choice>
     ```
 
-    **To actually use the Rock, Paper, Scissors command you would type this:**
+    **To use the Rock, Paper, Scissors command you would type this:**
 
     ```md
     !rps rock
@@ -48,7 +48,7 @@
     !kick @someone @someoneelse They were annoying me
     ```
 
-    For this command you could also use the users IDs if you don't wish to mention the users. If you are not sure how to get a users ID please check out this article on [Where can I find my User/Server/Message ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). For example:
+    For this command, you could also use the users' IDs if you don't wish to mention the users. If you are not sure how to get a users ID please check out this article on [Where can I find my User/Server/Message ID](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-). For example:
 
     ```md
     !kick 123456789 987654321
@@ -64,4 +64,4 @@ The default prefix for Friday's commands is `!`, and for commands to execute eve
 
 ### Slash commands
 
-Friday also supports slash commands. To use these commands, go to any text channel and start typing `/`, you should be greeted with a list of commands from bots and builtin commands.
+Friday also supports slash commands. To use these commands, go to any text channel and start typing `/`, you should be greeted with a list of commands from bots and built-in commands.
