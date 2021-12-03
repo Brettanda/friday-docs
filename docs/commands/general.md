@@ -1,12 +1,14 @@
 ---
-title: Patreons
-description: Exlusive command for Friday's Patreon Patrons
+title: General
+
 ---
-# Patreons
+# General
 
-Exlusive command for Friday's Patreon Patrons
 
-## Patreon
+
+## Intro
+
+Replies with the intro message for the bot
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -14,11 +16,12 @@ Exlusive command for Friday's Patreon Patrons
 Usage:
 
 ```md
-!patreon 
-!patreon server 
+!intro 
 ```
 
-### Server
+## Prefix
+
+Sets the prefix for Fridays commands
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -26,7 +29,13 @@ Usage:
 Usage:
 
 ```md
-!patreon server 
-!patreon server false 
-!patreon server true 
+!prefix [new_prefix='!']
+```
+
+Examples:
+
+```md
+!prefix
+!prefix ?
+!prefix f!
 ```

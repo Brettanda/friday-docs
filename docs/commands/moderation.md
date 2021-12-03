@@ -1,36 +1,39 @@
+---
+title: Moderation
+description: Manage your server with these commands
+---
 # Moderation
 
 Manage your server with these commands
 
 ## Ban
 
-
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
-!ban <members>... [delete_message_days=0] <reason>
-```
-
-Aliases:
-
-```md
-None
+!ban [duration] <members>... [reason]
 ```
 
 Examples:
 
 ```md
-!ban @username @someone @someoneelse
-!ban @thisguy
+!ban
+!ban 20m @username @someone @someoneelse Spam
+!ban @thisguy The most spam i have ever seen
 !ban 12345678910 10987654321 @someone
 !ban @someone They were annoying me
-!ban 123456789 2 Sus
+!ban 40d 123456789 2 Sus
 ```
 
 ## Begone
 
 Delete unwanted message that I send
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -38,140 +41,63 @@ Usage:
 !begone [message]
 ```
 
-Aliases:
-
-```md
-None
-```
-
 Examples:
 
 ```md
-None
+!begone
+!begone https://discord.com/channels/707441352367013899/707458929696702525/707520808448294983
+!begone 707520808448294983
 ```
 
-## Blacklist
+## Chatchannel
 
+Set the current channel so that I will always try to respond with something
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
-!blacklist|bl 
-!blacklist|bl clear 
-!blacklist|bl add <word>
-!blacklist|bl display 
-!blacklist|bl remove <word>
+!chatchannel 
 ```
 
-Aliases:
+## Disable
 
-```md
-bl
-```
+Disable a command
 
-Examples:
-
-```md
-None
-```
-
-### Add
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
-!blacklist add|+ <word>
+!disable|disablecmd <commands>...
 ```
 
 Aliases:
 
 ```md
-+
+disablecmd
 ```
 
 Examples:
 
 ```md
-!blacklist add penis
-!bl + shit
-```
-
-### Clear
-
-Usage:
-
-```md
-!blacklist clear 
-```
-
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
-### Display
-
-Usage:
-
-```md
-!blacklist display|list|show 
-```
-
-Aliases:
-
-```md
-list,show
-```
-
-Examples:
-
-```md
-None
-```
-
-### Remove
-
-Usage:
-
-```md
-!blacklist remove|- <word>
-```
-
-Aliases:
-
-```md
--
-```
-
-Examples:
-
-```md
-!blacklist remove penis
-!bl - shit
+!disable ping
+!disablecmd ping last
+!disable "blacklist add" ping
 ```
 
 ## Kick
 
-
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
 !kick <members>... [reason]
-```
-
-Aliases:
-
-```md
-None
 ```
 
 Examples:
@@ -184,14 +110,59 @@ Examples:
 !kick @thisguy 12345678910 They were spamming general
 ```
 
-## Massmove
+## Language
 
-Move everyone from one voice channel to another
+Change the language that I will speak. This currently only applies to the chatbot messages not the commands.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
-!massmove|move <tochannel> [fromchannel]
+!language|lang [language]
+```
+
+Aliases:
+
+```md
+lang
+```
+
+Examples:
+
+```md
+!language
+!lang en
+!language es
+!lang english
+!language spanish
+```
+
+## Last
+
+Gets the last member to leave a voice channel.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!last [voice_channel]
+```
+
+## Massmove
+
+Move everyone from one voice channel to another
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!massmove|move <to_channel> [from_channel]
 ```
 
 Aliases:
@@ -212,49 +183,47 @@ Examples:
 
 Mute a member from text channels
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!mute <member>
-```
-
-Aliases:
-
-```md
-None
+!mute [duration] <members>... [reason]
+!mute role [role]
 ```
 
 Examples:
 
 ```md
-None
+!mute
+!mute 20m @Motostar @steve they were annoying me
+!mute @steve 9876543210
+!mute 30d @Motostar spamming general
+!mute 0123456789
 ```
 
-## Prefix
+### Role
 
-Sets the prefix for Fridays commands
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Set the role to be applied to members that get muted
 
 Usage:
 
 ```md
-!prefix [new_prefix='!']
-```
-
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
+!mute role [role]
+!mute role create [name='Muted']
+!mute role update 
 ```
 
 ## Rolecall
 
 Moves everyone with a specific role to a voicechannel. Objects that can be exluded are voicechannels,roles,and members
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -276,133 +245,56 @@ Examples:
 !rolecall @admins general @username @username
 ```
 
-## Set
+## Selfmute
 
+Temporarily mutes yourself for the specified duration, min 5 minutes, max 24 hours
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
 ```md
-!set 
-!set deletecommandsafter [time=0]
-!set removeinvites 
-!set language [language]
-!set chatchannel 
-```
-
-Aliases:
-
-```md
-None
+!selfmute <duration>
 ```
 
 Examples:
 
 ```md
-None
+!selfmute 20m
+!selfmute 1h20m
+!selfmute 5h
 ```
 
-### Chatchannel
-Set the current channel so that I will always try to respond with something
+## Unban
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!set chatchannel 
-```
-
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
-### Deletecommandsafter
-Set the time in seconds for how long to wait before deleting command messages
-Usage:
-
-```md
-!set deletecommandsafter|deleteafter|delcoms [time=0]
-```
-
-Aliases:
-
-```md
-deleteafter,delcoms
-```
-
-Examples:
-
-```md
-!set deletecommandsafter 0
-!set deleteafter 180
-!set delcoms 
-```
-
-### Language
-Change the language that I will speak
-Usage:
-
-```md
-!set language|lang [language]
-```
-
-Aliases:
-
-```md
-lang
-```
-
-Examples:
-
-```md
-None
-```
-
-### Removeinvites
-Automaticaly remove Discord invites from text channels
-Usage:
-
-```md
-!set removeinvites 
-```
-
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
+!unban <member> <reason>
 ```
 
 ## Unmute
 
 Unmute a member from text channels
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!unmute <member>
-```
-
-Aliases:
-
-```md
-None
+!unmute <members>... <reason>
 ```
 
 Examples:
 
 ```md
-None
+!unmute @Motostar @steve they said sorry
+!unmute @steve 9876543210
+!unmute @Motostar
+!unmute 0123456789
 ```
-

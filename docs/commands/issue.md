@@ -1,3 +1,7 @@
+---
+title: Issue
+description: Report your issues you have with Friday
+---
 # Issue
 
 Report your issues you have with Friday
@@ -5,6 +9,9 @@ Report your issues you have with Friday
 ## Issue
 
 If you have an issue or noticed a bug with Friday, this will send a message to the developer.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -17,10 +24,3 @@ Aliases:
 ```md
 problem,feedback
 ```
-
-Examples:
-
-```md
-None
-```
-

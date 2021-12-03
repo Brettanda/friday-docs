@@ -1,10 +1,17 @@
+---
+title: Info
+description: Grab information about your Discord server members with Friday's information commands
+---
 # Info
 
-
+Grab information about your Discord server members with Friday's information commands
 
 ## Info
 
 Displays some information about myself :)
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -18,53 +25,42 @@ Aliases:
 about
 ```
 
-Examples:
-
-```md
-None
-```
-
 ## Serverinfo
 
 Shows information about the server
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!serverinfo 
+!serverinfo|guildinfo 
 ```
 
 Aliases:
 
 ```md
-None
-```
-
-Examples:
-
-```md
-None
+guildinfo
 ```
 
 ## Userinfo
 
 Some information on the mentioned user
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!userinfo <user>
-```
-
-Aliases:
-
-```md
-None
+!userinfo [user]
 ```
 
 Examples:
 
 ```md
-None
+!userinfo
+!userinfo @Friday
+!userinfo 476303446547365891
 ```
-

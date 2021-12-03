@@ -1,19 +1,46 @@
+---
+title: Music
+description: Listen to your favourite music and audio clips with Friday's music commands
+---
 # Music
 
+Listen to your favourite music and audio clips with Friday's music commands
 
+## Connect
+
+Join a voice channel
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!connect|join [channel]
+```
+
+Aliases:
+
+```md
+join
+```
 
 ## Custom
 
 Play sounds/songs without looking for the url everytime
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
 !custom|c <name>
-!custom|c remove <name>
-!custom|c list 
-!custom|c change <name> <url>
 !custom|c add <name> <url>
+!custom|c change <name> <url>
+!custom|c clear 
+!custom|c list 
+!custom|c remove <name>
 ```
 
 Aliases:
@@ -22,13 +49,10 @@ Aliases:
 c
 ```
 
-Examples:
-
-```md
-None
-```
-
 ### Add
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -36,19 +60,10 @@ Usage:
 !custom add <name> <url>
 ```
 
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
 ### Change
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -62,13 +77,21 @@ Aliases:
 replace
 ```
 
-Examples:
+### Clear
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
 
 ```md
-None
+!custom clear 
 ```
 
 ### List
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -76,19 +99,10 @@ Usage:
 !custom list 
 ```
 
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
 ### Remove
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -102,15 +116,59 @@ Aliases:
 del
 ```
 
+## Equalizer
+
+Change the players equalizer.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!equalizer|eq <equalizer>
+```
+
+Aliases:
+
+```md
+eq
+```
+
 Examples:
 
 ```md
-None
+!equalizer flat
+!eq boost
+!equalizer metal
+!eq piano
+```
+
+## Nowplaying
+
+Update the player controller.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!nowplaying|np|now_playing|current 
+```
+
+Aliases:
+
+```md
+np,now_playing,current
 ```
 
 ## Pause
 
-Pause the current track
+Pause the currently playing song.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -118,21 +176,12 @@ Usage:
 !pause 
 ```
 
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
 ## Play
 
 Follow this command with the title of a song to search for it or just paste the Youtube/SoundCloud url if the search gives and undesirable result
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -149,34 +198,54 @@ p,add
 Examples:
 
 ```md
-None
+!play https://youtu.be/dQw4w9WgXcQ
 ```
 
 ## Queue
 
 shows the song queue
 
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
 Usage:
 
 ```md
-!queue 
+!queue|que 
+!queue|que remove <index>
 ```
 
 Aliases:
 
 ```md
-None
+que
 ```
 
-Examples:
+### Remove
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Remove an item from the queue
+
+Usage:
 
 ```md
-None
+!queue remove|rm <index>
+```
+
+Aliases:
+
+```md
+rm
 ```
 
 ## Resume
 
-Resume the current track
+Resume a currently paused player.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -184,21 +253,31 @@ Usage:
 !resume 
 ```
 
+## Shuffle
+
+Shuffle the players queue.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!shuffle|mix 
+```
+
 Aliases:
 
 ```md
-None
-```
-
-Examples:
-
-```md
-None
+mix
 ```
 
 ## Skip
 
 Skips the current song
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -206,21 +285,12 @@ Usage:
 !skip 
 ```
 
-Aliases:
-
-```md
-None
-```
-
-Examples:
-
-```md
-None
-```
-
 ## Stop
 
 Stops the currently playing music
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -234,9 +304,40 @@ Aliases:
 disconnect
 ```
 
-Examples:
+## Swap_dj
+
+Swap who has control over the music. (Admins always have control)
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
 
 ```md
-None
+!swap_dj|swap <member>
 ```
 
+Aliases:
+
+```md
+swap
+```
+
+## Volume
+
+Change the players volume, between 1 and 100.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!volume|v|vol <vol>
+```
+
+Aliases:
+
+```md
+v,vol
+```

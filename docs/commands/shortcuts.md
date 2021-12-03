@@ -1,14 +1,14 @@
 ---
-title: Fun
-description: Fun games and other commands to give more life to your Discord server.
+title: Shortcuts
+
 ---
-# Fun
+# Shortcuts
 
-Fun games and other commands to give more life to your Discord server.
 
-## Coinflip
 
-Flip a coin
+## Shortcuts
+
+Setup shortcuts for your favourite commands and arguments
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -16,81 +16,91 @@ Flip a coin
 Usage:
 
 ```md
-!coinflip|coin 
+!shortcuts|sc 
+!shortcuts|sc add <shortcut> <command> [args]
+!shortcuts|sc clear 
+!shortcuts|sc list 
+!shortcuts|sc remove <shortcut>
 ```
 
 Aliases:
 
 ```md
-coin
+sc
 ```
 
-## Minesweeper
-
-Play minesweeper
+### Add
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
+Add a shortcut
+
 Usage:
 
 ```md
-!minesweeper|ms [size=5] [bomb_count=6]
+!shortcuts add|a|+ <shortcut> <command> [args]
 ```
 
 Aliases:
 
 ```md
-ms
+a,+
 ```
 
-## Poll
-
-Make a poll. Contain each option in qoutes `'option' 'option 2'`
+### Clear
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
-
-```md
-!poll <title> <option1> <option2> <option3> <option4> <option5> <option6> <option7> <option8> <option9> <option10>
-```
-
-Examples:
-
-```md
-!poll "this is a title" '1' '2' '3'
-```
-
-## Rockpaperscissors
-
-Play Rock Paper Scissors with Friday
-
-??? missing "Does not have a slash command to match"
-	Learn more about [slash commands](/#slash-commands)
+Clear all shortcuts
 
 Usage:
 
 ```md
-!rockpaperscissors|rps <rock, paper or scissors>
+!shortcuts clear|c|clr 
 ```
 
 Aliases:
 
 ```md
-rps
+c,clr
 ```
 
-## Souptime
-
-Soup Time
+### List
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
+List all shortcuts
+
 Usage:
 
 ```md
-!souptime 
+!shortcuts list|l|ls 
+```
+
+Aliases:
+
+```md
+l,ls
+```
+
+### Remove
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Remove a shortcut
+
+Usage:
+
+```md
+!shortcuts remove|r|- <shortcut>
+```
+
+Aliases:
+
+```md
+r,-
 ```

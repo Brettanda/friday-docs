@@ -1,10 +1,17 @@
+---
+title: Meme
+description: Get a meme hand delivered to you with Friday's meme command
+---
 # Meme
 
-Memes
+Get a meme hand delivered to you with Friday's meme command
 
 ## Meme
 
 Meme time
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
 
 Usage:
 
@@ -17,10 +24,3 @@ Aliases:
 ```md
 shitpost
 ```
-
-Examples:
-
-```md
-None
-```
-
