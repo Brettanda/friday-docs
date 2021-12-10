@@ -62,33 +62,6 @@ Usage:
 !chatchannel 
 ```
 
-## Disable
-
-Disable a command
-
-??? missing "Does not have a slash command to match"
-	Learn more about [slash commands](/#slash-commands)
-
-Usage:
-
-```md
-!disable|disablecmd <commands>...
-```
-
-Aliases:
-
-```md
-disablecmd
-```
-
-Examples:
-
-```md
-!disable ping
-!disablecmd ping last
-!disable "blacklist add" ping
-```
-
 ## Kick
 
 ??? missing "Does not have a slash command to match"

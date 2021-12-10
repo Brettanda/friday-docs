@@ -25,6 +25,25 @@ Aliases:
 coin
 ```
 
+## Countdown
+
+Start a countdown. This command only updates every 10 seconds to avoid being ratelimited by Discord
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Usage:
+
+```md
+!countdown|cd [hours=0] [minutes=0] [seconds=0] [title]
+```
+
+Aliases:
+
+```md
+cd
+```
+
 ## Minesweeper
 
 Play minesweeper
