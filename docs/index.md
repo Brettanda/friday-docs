@@ -10,7 +10,7 @@ description: The full list of commands and how to use them from the Friday Disco
 
 | [Website](https://friday-bot.com) | [Support Server](http://discord.gg/XP4avQ449V) | [Patreon](//www.patreon.com/bePatron?u=42649008&redirect_uri={{ config.site_url }}) |
 
-???+ danger "Understanding how to use commands"
+!!! tip "Understanding how to use commands"
     **Do not literally type out < > [ ] | ...**
 
     These are just to display information about the arguments.
@@ -39,7 +39,7 @@ description: The full list of commands and how to use them from the Friday Disco
     !rps rock
     ```
 
-???+ warning "Understanding command arguments"
+!!! tip "Understanding command arguments"
     If you see a command with an argument ending with `...` this means that this one argument will accept multiple of the same type of argument one after another. Let's use this kick command for example.
 
     ```md
@@ -59,6 +59,15 @@ description: The full list of commands and how to use them from the Friday Disco
     ```
 
     An argument wrapped with `[` or `]` just means that the argument is optional. For example with the 
+
+## Global required permissions
+
+Friday requires some permissions for all commands. These include:
+
+- send_messages
+- read_messages
+- embed_links
+- add_reactions
 
 ## How to commands
 

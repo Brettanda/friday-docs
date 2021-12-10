@@ -13,18 +13,16 @@ Set the channel where I can log moderation actions. This will log moderation act
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!modlog|modlogs [channel]
+	!modlog|modlogs events <events>...
+	```
 
-```md
-!modlog|modlogs [channel]
-!modlog|modlogs events <events>...
-```
-
-Aliases:
-
-```md
-modlogs
-```
+=== "Aliases"
+	```md
+	modlogs
+	```
 
 ### Events
 
@@ -33,20 +31,20 @@ modlogs
 
 The events that will be logged in the mod log channel
 
-Usage:
+=== "Usage"
 
-```md
-!modlog events <events>...
-```
+	```md
+	!modlog events <events>...
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!modlog events bans
-!modlogs events mutes
-!modlog events unbans
-!modlogs events unmutes
-!modlog events kicks
-!modlogs events bans mutes kicks unbans unmutes
-!modlog events bans unbans
-```
+	```md
+	!modlog events bans
+	!modlogs events mutes
+	!modlog events unbans
+	!modlogs events unmutes
+	!modlog events kicks
+	!modlogs events bans mutes kicks unbans unmutes
+	!modlog events bans unbans
+	```

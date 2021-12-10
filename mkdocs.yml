@@ -56,6 +56,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.tabbed:
+      alternate_style: true 
   # - footnotes
   - attr_list
 extra_javascript:

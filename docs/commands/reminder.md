@@ -11,56 +11,54 @@ title: Reminder
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!reminder|timer|remind <when> <message>
+	!reminder|timer|remind clear 
+	!reminder|timer|remind delete <id>
+	!reminder|timer|remind list 
+	```
 
-```md
-!reminder|timer|remind <when> <message>
-!reminder|timer|remind clear 
-!reminder|timer|remind delete <id>
-!reminder|timer|remind list 
-```
-
-Aliases:
-
-```md
-timer,remind
-```
+=== "Aliases"
+	```md
+	timer,remind
+	```
 
 ### Clear
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!reminder clear 
-```
+	```md
+	!reminder clear 
+	```
 
 ### Delete
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!reminder delete|remove|cancel <id>
-```
+	```md
+	!reminder delete|remove|cancel <id>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-remove,cancel
-```
+	```md
+	remove,cancel
+	```
 
 ### List
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!reminder list 
-```
+	```md
+	!reminder list 
+	```

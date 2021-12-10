@@ -44,7 +44,7 @@ Greet new members to your server with a welcome message and/or role with Friday'
 
 Tired of having to open Reddit links just to view the media in the posts? Setup Friday's Reddit Media Extraction to have Friday extract that media for you and view the video or images right in Discord.
 
-When enabled Friday will react with 🔗 to any post that can be extracted. To then extract the media, react back with 🔗.
+When enabled, and someone posts a link to a Reddit post with and image or video, Friday will check to see if there is an available link to grab the video or image from, and then react with a 🔗 emoji. To extract the video or image from the post simply add your own 🔗 reaction to your message. Friday will then send a link the image or download the video and post it.
 
 ## [Logging](https://docs.friday-bot.com/commands/logging/)
 

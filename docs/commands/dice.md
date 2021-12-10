@@ -13,22 +13,19 @@ D&D dice rolling
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!dice|d|r|roll <roll>
+	```
 
-```md
-!dice|d|r|roll <roll>
-```
+=== "Aliases"
+	```md
+	d,r,roll
+	```
 
-Aliases:
-
-```md
-d,r,roll
-```
-
-Examples:
-
-```md
-!dice 1d20
-!d 5d10k3
-!r d6
-```
+=== "Examples"
+	```md
+	!dice 1d20
+	!d 5d10k3
+	!r d6
+	```

@@ -13,14 +13,12 @@ Meme time
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!meme|shitpost 
+	```
 
-```md
-!meme|shitpost 
-```
-
-Aliases:
-
-```md
-shitpost
-```
+=== "Aliases"
+	```md
+	shitpost
+	```

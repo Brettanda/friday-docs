@@ -13,21 +13,19 @@ Blacklist words from being sent in text channels
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!blacklist|bl 
+	!blacklist|bl add <phrase>
+	!blacklist|bl clear 
+	!blacklist|bl display 
+	!blacklist|bl remove <word>
+	```
 
-```md
-!blacklist|bl 
-!blacklist|bl add <phrase>
-!blacklist|bl clear 
-!blacklist|bl display 
-!blacklist|bl remove <word>
-```
-
-Aliases:
-
-```md
-bl
-```
+=== "Aliases"
+	```md
+	bl
+	```
 
 ### Add
 
@@ -36,24 +34,24 @@ bl
 
 Add a word to the current servers blacklist settings.
 
-Usage:
+=== "Usage"
 
-```md
-!blacklist add|+ <phrase>
-```
+	```md
+	!blacklist add|+ <phrase>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-+
-```
+	```md
+	+
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!blacklist add penis
-!bl + shit
-```
+	```md
+	!blacklist add penis
+	!bl + shit
+	```
 
 ### Clear
 
@@ -62,11 +60,11 @@ Examples:
 
 Remove all words from the current servers blacklist settings.
 
-Usage:
+=== "Usage"
 
-```md
-!blacklist clear 
-```
+	```md
+	!blacklist clear 
+	```
 
 ### Display
 
@@ -75,17 +73,17 @@ Usage:
 
 Display the current servers blacklist settings.
 
-Usage:
+=== "Usage"
 
-```md
-!blacklist display|list|show 
-```
+	```md
+	!blacklist display|list|show 
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-list,show
-```
+	```md
+	list,show
+	```
 
 ### Remove
 
@@ -94,24 +92,24 @@ list,show
 
 Remove a word from the current servers blacklist settings.
 
-Usage:
+=== "Usage"
 
-```md
-!blacklist remove|- <word>
-```
+	```md
+	!blacklist remove|- <word>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
--
-```
+	```md
+	-
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!blacklist remove penis
-!bl - shit
-```
+	```md
+	!blacklist remove penis
+	!bl - shit
+	```
 
 ## Contentspam
 
@@ -120,20 +118,18 @@ Sets the max number of message that can have the same content (ignoring who sent
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!contentspam <message_rate> <seconds>
+	!contentspam disable 
+	!contentspam punishment <action>
+	```
 
-```md
-!contentspam <message_rate> <seconds>
-!contentspam disable 
-!contentspam punishment <action>
-```
-
-Examples:
-
-```md
-!contentspam 3 5
-!contentspam 15 17
-```
+=== "Examples"
+	```md
+	!contentspam 3 5
+	!contentspam 15 17
+	```
 
 ### Disable
 
@@ -142,11 +138,11 @@ Examples:
 
 Disable the max amount of messages per x seconds with the same content for this server.
 
-Usage:
+=== "Usage"
 
-```md
-!contentspam disable 
-```
+	```md
+	!contentspam disable 
+	```
 
 ### Punishment
 
@@ -155,26 +151,26 @@ Usage:
 
 Set the punishment for the max amount of message every x seconds. Combining kick,ban and/or mute will only apply one of them.
 
-Usage:
+=== "Usage"
 
-```md
-!contentspam punishment|punishments <action>
-```
+	```md
+	!contentspam punishment|punishments <action>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-punishments
-```
+	```md
+	punishments
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!contentspam punishment delete
-!contentspam punishments kick
-!contentspam punishment ban
-!contentspam punishments mute
-```
+	```md
+	!contentspam punishment delete
+	!contentspam punishments kick
+	!contentspam punishment ban
+	!contentspam punishments mute
+	```
 
 ## Invitespam
 
@@ -183,27 +179,24 @@ Automaticaly remove Discord invites (originating from external servers) from tex
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!invitespam|removeinvites [enable]
+	```
 
-```md
-!invitespam|removeinvites [enable]
-```
+=== "Aliases"
+	```md
+	removeinvites
+	```
 
-Aliases:
-
-```md
-removeinvites
-```
-
-Examples:
-
-```md
-!invitespam
-!removeinvites 1
-!invitespam 0
-!removeinvites true
-!invitespam false
-```
+=== "Examples"
+	```md
+	!invitespam
+	!removeinvites 1
+	!invitespam 0
+	!removeinvites true
+	!invitespam false
+	```
 
 ## Mentionspam
 
@@ -212,27 +205,24 @@ Set the max amount of mentions one user can send per message before muting the a
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!mentionspam|maxmentions|maxpings <mention_count> <seconds>
+	!mentionspam|maxmentions|maxpings disable 
+	!mentionspam|maxmentions|maxpings punishment <action>
+	```
 
-```md
-!mentionspam|maxmentions|maxpings <mention_count> <seconds>
-!mentionspam|maxmentions|maxpings disable 
-!mentionspam|maxmentions|maxpings punishment <action>
-```
+=== "Aliases"
+	```md
+	maxmentions,maxpings
+	```
 
-Aliases:
-
-```md
-maxmentions,maxpings
-```
-
-Examples:
-
-```md
-!mentionspam 3
-!maxmentions 5
-!maxpings 10
-```
+=== "Examples"
+	```md
+	!mentionspam 3
+	!maxmentions 5
+	!maxpings 10
+	```
 
 ### Disable
 
@@ -241,11 +231,11 @@ Examples:
 
 Disable the max amount of mentions per message for this server.
 
-Usage:
+=== "Usage"
 
-```md
-!mentionspam disable 
-```
+	```md
+	!mentionspam disable 
+	```
 
 ### Punishment
 
@@ -254,26 +244,26 @@ Usage:
 
 Set the punishment for the max amount of mentions one user can send per message. Combining kick,ban and/or mute will only apply one of them.
 
-Usage:
+=== "Usage"
 
-```md
-!mentionspam punishment|punishments <action>
-```
+	```md
+	!mentionspam punishment|punishments <action>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-punishments
-```
+	```md
+	punishments
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!mentionspam punishment delete
-!maxmentions punishments kick
-!maxpings punishment ban
-!mentionspam punishments mute
-```
+	```md
+	!mentionspam punishment delete
+	!maxmentions punishments kick
+	!maxpings punishment ban
+	!mentionspam punishments mute
+	```
 
 ## Messagespam
 
@@ -282,26 +272,23 @@ Sets a max message count for users per x seconds
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!messagespam|maxmessages|ratelimit <message_rate> <seconds>
+	!messagespam|maxmessages|ratelimit disable 
+	!messagespam|maxmessages|ratelimit punishment <action>
+	```
 
-```md
-!messagespam|maxmessages|ratelimit <message_rate> <seconds>
-!messagespam|maxmessages|ratelimit disable 
-!messagespam|maxmessages|ratelimit punishment <action>
-```
+=== "Aliases"
+	```md
+	maxmessages,ratelimit
+	```
 
-Aliases:
-
-```md
-maxmessages,ratelimit
-```
-
-Examples:
-
-```md
-!messagespam 3 5
-!maxmessages 10 12
-```
+=== "Examples"
+	```md
+	!messagespam 3 5
+	!maxmessages 10 12
+	```
 
 ### Disable
 
@@ -310,11 +297,11 @@ Examples:
 
 Disable the max amount of messages per x seconds by the same member for this server.
 
-Usage:
+=== "Usage"
 
-```md
-!messagespam disable 
-```
+	```md
+	!messagespam disable 
+	```
 
 ### Punishment
 
@@ -323,26 +310,26 @@ Usage:
 
 Set the punishment for the max amount of message every x seconds. Combining kick,ban and/or mute will only apply one of them.
 
-Usage:
+=== "Usage"
 
-```md
-!messagespam punishment|punishments <action>
-```
+	```md
+	!messagespam punishment|punishments <action>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-punishments
-```
+	```md
+	punishments
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!messagespam punishment delete
-!maxmessages punishments kick
-!ratelimit punishment ban
-!messagespam punishments mute
-```
+	```md
+	!messagespam punishment delete
+	!maxmessages punishments kick
+	!ratelimit punishment ban
+	!messagespam punishments mute
+	```
 
 ## Unwhitelist
 
@@ -351,24 +338,21 @@ Unwhitelist channels and/or roles from being automoded.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!unwhitelist|unwl <channel_or_roles>...
+	```
 
-```md
-!unwhitelist|unwl <channel_or_roles>...
-```
+=== "Aliases"
+	```md
+	unwl
+	```
 
-Aliases:
-
-```md
-unwl
-```
-
-Examples:
-
-```md
-!unwhitelist #memes
-!unwl @admin #admin 707457407512739951
-```
+=== "Examples"
+	```md
+	!unwhitelist #memes
+	!unwl @admin #admin 707457407512739951
+	```
 
 ## Whitelist
 
@@ -377,21 +361,18 @@ Whitelist channels and/or roles from being automoded.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!whitelist|wl <channel_or_roles>...
+	```
 
-```md
-!whitelist|wl <channel_or_roles>...
-```
+=== "Aliases"
+	```md
+	wl
+	```
 
-Aliases:
-
-```md
-wl
-```
-
-Examples:
-
-```md
-!whitelist #memes
-!wl #admin @admin 707457407512739951
-```
+=== "Examples"
+	```md
+	!whitelist #memes
+	!wl #admin @admin 707457407512739951
+	```

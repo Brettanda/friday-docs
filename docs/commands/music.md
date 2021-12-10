@@ -13,17 +13,15 @@ Join a voice channel
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!connect|join [channel]
+	```
 
-```md
-!connect|join [channel]
-```
-
-Aliases:
-
-```md
-join
-```
+=== "Aliases"
+	```md
+	join
+	```
 
 ## Custom
 
@@ -32,89 +30,87 @@ Play sounds/songs without looking for the url everytime
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!custom|c <name>
+	!custom|c add <name> <url>
+	!custom|c change <name> <url>
+	!custom|c clear 
+	!custom|c list 
+	!custom|c remove <name>
+	```
 
-```md
-!custom|c <name>
-!custom|c add <name> <url>
-!custom|c change <name> <url>
-!custom|c clear 
-!custom|c list 
-!custom|c remove <name>
-```
-
-Aliases:
-
-```md
-c
-```
+=== "Aliases"
+	```md
+	c
+	```
 
 ### Add
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!custom add <name> <url>
-```
+	```md
+	!custom add <name> <url>
+	```
 
 ### Change
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!custom change|replace <name> <url>
-```
+	```md
+	!custom change|replace <name> <url>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-replace
-```
+	```md
+	replace
+	```
 
 ### Clear
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!custom clear 
-```
+	```md
+	!custom clear 
+	```
 
 ### List
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!custom list 
-```
+	```md
+	!custom list 
+	```
 
 ### Remove
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
 
-```md
-!custom remove|del <name>
-```
+	```md
+	!custom remove|del <name>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-del
-```
+	```md
+	del
+	```
 
 ## Equalizer
 
@@ -123,26 +119,23 @@ Change the players equalizer.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!equalizer|eq <equalizer>
+	```
 
-```md
-!equalizer|eq <equalizer>
-```
+=== "Aliases"
+	```md
+	eq
+	```
 
-Aliases:
-
-```md
-eq
-```
-
-Examples:
-
-```md
-!equalizer flat
-!eq boost
-!equalizer metal
-!eq piano
-```
+=== "Examples"
+	```md
+	!equalizer flat
+	!eq boost
+	!equalizer metal
+	!eq piano
+	```
 
 ## Nowplaying
 
@@ -151,17 +144,15 @@ Update the player controller.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!nowplaying|np|now_playing|current 
+	```
 
-```md
-!nowplaying|np|now_playing|current 
-```
-
-Aliases:
-
-```md
-np,now_playing,current
-```
+=== "Aliases"
+	```md
+	np,now_playing,current
+	```
 
 ## Pause
 
@@ -170,11 +161,10 @@ Pause the currently playing song.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
-
-```md
-!pause 
-```
+=== "Usage"
+	```md
+	!pause 
+	```
 
 ## Play
 
@@ -183,23 +173,20 @@ Follow this command with the title of a song to search for it or just paste the 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!play|p|add <url/title>
+	```
 
-```md
-!play|p|add <url/title>
-```
+=== "Aliases"
+	```md
+	p,add
+	```
 
-Aliases:
-
-```md
-p,add
-```
-
-Examples:
-
-```md
-!play https://youtu.be/dQw4w9WgXcQ
-```
+=== "Examples"
+	```md
+	!play https://youtu.be/dQw4w9WgXcQ
+	```
 
 ## Queue
 
@@ -208,18 +195,16 @@ shows the song queue
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!queue|que 
+	!queue|que remove <index>
+	```
 
-```md
-!queue|que 
-!queue|que remove <index>
-```
-
-Aliases:
-
-```md
-que
-```
+=== "Aliases"
+	```md
+	que
+	```
 
 ### Remove
 
@@ -228,17 +213,17 @@ que
 
 Remove an item from the queue
 
-Usage:
+=== "Usage"
 
-```md
-!queue remove|rm <index>
-```
+	```md
+	!queue remove|rm <index>
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-rm
-```
+	```md
+	rm
+	```
 
 ## Resume
 
@@ -247,11 +232,10 @@ Resume a currently paused player.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
-
-```md
-!resume 
-```
+=== "Usage"
+	```md
+	!resume 
+	```
 
 ## Shuffle
 
@@ -260,17 +244,15 @@ Shuffle the players queue.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!shuffle|mix 
+	```
 
-```md
-!shuffle|mix 
-```
-
-Aliases:
-
-```md
-mix
-```
+=== "Aliases"
+	```md
+	mix
+	```
 
 ## Skip
 
@@ -279,11 +261,10 @@ Skips the current song
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
-
-```md
-!skip 
-```
+=== "Usage"
+	```md
+	!skip 
+	```
 
 ## Stop
 
@@ -292,17 +273,15 @@ Stops the currently playing music
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!stop|disconnect 
+	```
 
-```md
-!stop|disconnect 
-```
-
-Aliases:
-
-```md
-disconnect
-```
+=== "Aliases"
+	```md
+	disconnect
+	```
 
 ## Swap_dj
 
@@ -311,17 +290,15 @@ Swap who has control over the music. (Admins always have control)
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!swap_dj|swap <member>
+	```
 
-```md
-!swap_dj|swap <member>
-```
-
-Aliases:
-
-```md
-swap
-```
+=== "Aliases"
+	```md
+	swap
+	```
 
 ## Volume
 
@@ -330,14 +307,12 @@ Change the players volume, between 1 and 100.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
+=== "Usage"
+	```md
+	!volume|v|vol <vol>
+	```
 
-```md
-!volume|v|vol <vol>
-```
-
-Aliases:
-
-```md
-v,vol
-```
+=== "Aliases"
+	```md
+	v,vol
+	```

@@ -13,15 +13,14 @@ Friday's settings for welcomeing new members to your servers
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Usage:
-
-```md
-!welcome 
-!welcome channel [channel]
-!welcome display 
-!welcome message [message]
-!welcome role [role]
-```
+=== "Usage"
+	```md
+	!welcome 
+	!welcome channel [channel]
+	!welcome display 
+	!welcome message [message]
+	!welcome role [role]
+	```
 
 ### Channel
 
@@ -30,20 +29,20 @@ Usage:
 
 Setup a welcome channel for Friday to welcome new memebers in
 
-Usage:
+=== "Usage"
 
-```md
-!welcome channel [channel]
-```
+	```md
+	!welcome channel [channel]
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!welcome channel
-!welcome channel #welcome
-!welcome channel #general
-!welcome channel 707458929696702525
-```
+	```md
+	!welcome channel
+	!welcome channel #welcome
+	!welcome channel #general
+	!welcome channel 707458929696702525
+	```
 
 ### Display
 
@@ -52,17 +51,17 @@ Examples:
 
 Shows the servers current welcome settings
 
-Usage:
+=== "Usage"
 
-```md
-!welcome display|list|show 
-```
+	```md
+	!welcome display|list|show 
+	```
 
-Aliases:
+=== "Aliases"
 
-```md
-list,show
-```
+	```md
+	list,show
+	```
 
 ### Message
 
@@ -71,20 +70,20 @@ list,show
 
 Set a message to greet new members to your server, message variables are `{user}`,`{server}`
 
-Usage:
+=== "Usage"
 
-```md
-!welcome message [message]
-```
+	```md
+	!welcome message [message]
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!welcome message
-!welcome message Welcome to the server {user}, stay a while!
-!welcome message Welcome {user} to {server}
-!welcome message A new member has joined the server!
-```
+	```md
+	!welcome message
+	!welcome message Welcome to the server {user}, stay a while!
+	!welcome message Welcome {user} to {server}
+	!welcome message A new member has joined the server!
+	```
 
 ### Role
 
@@ -93,16 +92,16 @@ Examples:
 
 Set the role that is given to new members when they join the server
 
-Usage:
+=== "Usage"
 
-```md
-!welcome role [role]
-```
+	```md
+	!welcome role [role]
+	```
 
-Examples:
+=== "Examples"
 
-```md
-!welcome role
-!welcome role @default
-!welcome role 12345678910
-```
+	```md
+	!welcome role
+	!welcome role @default
+	!welcome role 12345678910
+	```
