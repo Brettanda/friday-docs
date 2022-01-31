@@ -218,6 +218,45 @@ Temporarily mutes yourself for the specified duration, min 5 minutes, max 24 hou
 	!selfmute 5h
 	```
 
+## Selftimeout
+
+Temporarily timeout yourself for the specified duration, min 5 minutes, max 24 hours
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!selftimeout <duration>
+	```
+
+=== "Examples"
+	```md
+	!selftimeout 20m
+	!selftimeout 1h20m
+	!selftimeout 5h
+	```
+
+## Timeout
+
+Timeout a member from chating, replying, reacting, and joining voice channels.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!timeout <duration> <members>... [reason]
+	```
+
+=== "Examples"
+	```md
+	!timeout 20m @Motostar @steve they were annoying me
+	!timeout 1week @steve 9876543210
+	!timeout 5d @Motostar spamming general
+	!timeout 0123456789
+	```
+
 ## Unban
 
 ??? missing "Does not have a slash command to match"
@@ -246,4 +285,29 @@ Unmute a member from text channels
 	!unmute @steve 9876543210
 	!unmute @Motostar
 	!unmute 0123456789
+	```
+
+## Untimeout
+
+Remove the timeout of a member
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!untimeout|removetimeout <members>... <reason>
+	```
+
+=== "Aliases"
+	```md
+	removetimeout
+	```
+
+=== "Examples"
+	```md
+	!untimeout @Motostar @steve they said sorry
+	!removetimeout @steve 9876543210
+	!untimeout @Motostar
+	!removetimeout 0123456789
 	```
