@@ -26,14 +26,15 @@ By default, Friday has a maximum message length that she will respond to. For fr
 
 Friday has a rate limit per user to help reduce spam and keep costs low. The absolute maximum rate limits are not under my control on what they are. Currently, the rate limits are:
 
-- 80 messages every 12 hours per user for user that have not [voted for Friday](https://top.gg/bot/476303446547365891/vote) and not at least a tier 1 [Patreon](//www.patreon.com/bePatron?u=42649008&redirect_uri={{ config.site_url }}).
-- 200 messages every 12 hours per user for users that have [voted](https://top.gg/bot/476303446547365891/vote) or are at least a tier 1 [Patreon](//www.patreon.com/bePatron?u=42649008&redirect_uri={{ config.site_url }}).
+- 30 messages every 12 hours per user for user that have not [voted for Friday](https://top.gg/bot/476303446547365891/vote) and not at least a tier 1 [Patreon](//www.patreon.com/bePatron?u=42649008&redirect_uri={{ config.site_url }}).
+- 60 messages every 12 hours per user for users that have [voted](https://top.gg/bot/476303446547365891/vote).
+- 100 messages every 12 hours per user for members or guilds that are at least a tier 1 [Patreon](//www.patreon.com/bePatron?u=42649008&redirect_uri={{ config.site_url }}).
 - 6 messages every 20 seconds per user absolute maximum.
 - 180 messages every 1 hour per user absolute maximum.
 
 ## Using a chat channel
 
-If your server has a set chat channel using the [`!chatchannel`](/commands/moderation/#chatchannel) command. You do not need to mention Friday in that channel to talk to her. She will respond to messages without being mentioned.
+If your server has a set chat channel using the [`!chatchannel #channel`](/commands/moderation/#chatchannel) command. You do not need to mention Friday in that channel to talk to her. She will respond to messages without being mentioned.
 
 ## Languages
 
