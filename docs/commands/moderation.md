@@ -45,18 +45,6 @@ Delete unwanted message that I send
 	!begone 707520808448294983
 	```
 
-## Chatchannel
-
-Set the current channel so that I will always try to respond with something
-
-??? missing "Does not have a slash command to match"
-	Learn more about [slash commands](/#slash-commands)
-
-=== "Usage"
-	```md
-	!chatchannel 
-	```
-
 ## Kick
 
 ??? missing "Does not have a slash command to match"
