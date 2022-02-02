@@ -6,6 +6,23 @@ title: General
 
 
 
+## Info
+
+Displays some information about myself :)
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!info|about 
+	```
+
+=== "Aliases"
+	```md
+	about
+	```
+
 ## Intro
 
 Replies with the intro message for the bot
@@ -16,4 +33,52 @@ Replies with the intro message for the bot
 === "Usage"
 	```md
 	!intro 
+	```
+
+## Invite
+
+Get the invite link to add me to your server
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!invite 
+	```
+
+## Serverinfo
+
+Shows information about the server
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!serverinfo|guildinfo 
+	```
+
+=== "Aliases"
+	```md
+	guildinfo
+	```
+
+## Userinfo
+
+Some information on the mentioned user
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!userinfo [user]
+	```
+
+=== "Examples"
+	```md
+	!userinfo
+	!userinfo @Friday
+	!userinfo 476303446547365891
 	```
