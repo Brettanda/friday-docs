@@ -132,3 +132,15 @@ Unrestricts the selected command.
 	```md
 	!unrestrict <command>
 	```
+
+## Updates
+
+Recieve updates on new features and changes for Friday
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!updates <channel>
+	```
