@@ -8,6 +8,8 @@ title: Config
 
 ## Botchannel
 
+The channel where bot commands live.
+
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
@@ -76,6 +78,31 @@ Enables the selected command(s).
 === "Usage"
 	```md
 	!enable <command>
+	```
+
+## Language
+
+Change the language that I will speak. This currently only applies to the chatbot messages not the commands.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!language|lang 
+	```
+
+=== "Aliases"
+	```md
+	lang
+	```
+
+=== "Examples"
+	```md
+	!language en
+	!lang es
+	!language english
+	!lang spanish
 	```
 
 ## Prefix
