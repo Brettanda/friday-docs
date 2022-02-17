@@ -41,3 +41,7 @@ If your server has a set chat channel using the [`!chatchannel #channel`](/comma
 By default, Friday can understand and speak a lot of languages, whether Friday actually will do this is not up to me unless you use the [`!language [langauge]`](/commands/moderation/#language) command.
 
 If you have changes Friday's language to something other than English with the language command, Friday will speak two languages in the server that you used the command in. One of the languages will be the one that you chose and the other will be English.
+
+## Personas
+
+Personas are only available to patrons. Friday currently has two personas to choose from: Pirate, where Friday will talk like a pirate, and default where Friday is focused on having a good time chatting to everyone. More personas are planned and in-progress.

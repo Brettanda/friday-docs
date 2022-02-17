@@ -22,6 +22,10 @@ Friday's chatbot system is powered by GPT-3 and to make it easy for everyone to 
 hey, what is it like being a bot?
 ```
 
+### Personas
+
+Personas are only available to patrons. Friday currently has two personas to choose from: Pirate, where Friday will talk like a pirate, and default where Friday is focused on having a good time chatting to everyone. More personas are planned and in-progress.
+
 ## [Automod](https://docs.friday-bot.com/commands/automod/)
 
 To prevent spam and raiding if your server(s) Friday is equipt with powerful commands such as a phrase blacklist, invite spam, mention spam, etc...
