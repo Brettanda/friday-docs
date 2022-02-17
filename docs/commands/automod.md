@@ -19,6 +19,7 @@ Blacklist words from being sent in text channels
 	!blacklist|bl add <phrase>
 	!blacklist|bl clear 
 	!blacklist|bl display 
+	!blacklist|bl punishment <punishments>
 	!blacklist|bl remove <word>
 	```
 
@@ -85,6 +86,35 @@ Display the current servers blacklist settings.
 	list,show
 	```
 
+### Punishment
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Set the punishment for blacklisted words. Combining kick,ban and/or mute will only apply one of them.
+
+=== "Usage"
+
+	```md
+	!blacklist punishment|punishments <punishments>
+	```
+
+=== "Aliases"
+
+	```md
+	punishments
+	```
+
+=== "Examples"
+
+	```md
+	!blacklist punishment delete
+	!bl punishments kick
+	!blacklist punishment ban
+	!bl punishments mute
+	!blacklist punishment timeout
+	```
+
 ### Remove
 
 ??? missing "Does not have a slash command to match"
@@ -122,7 +152,7 @@ Sets the max number of message that can have the same content (ignoring who sent
 	```md
 	!contentspam <message_rate> <seconds>
 	!contentspam disable 
-	!contentspam punishment <action>
+	!contentspam punishment <punishments>
 	```
 
 === "Examples"
@@ -154,7 +184,7 @@ Set the punishment for the max amount of message every x seconds. Combining kick
 === "Usage"
 
 	```md
-	!contentspam punishment|punishments <action>
+	!contentspam punishment|punishments <punishments>
 	```
 
 === "Aliases"
@@ -209,7 +239,7 @@ Set the max amount of mentions one user can send per message before muting the a
 	```md
 	!mentionspam|maxmentions|maxpings <mention_count> <seconds>
 	!mentionspam|maxmentions|maxpings disable 
-	!mentionspam|maxmentions|maxpings punishment <action>
+	!mentionspam|maxmentions|maxpings punishment <punishments>
 	```
 
 === "Aliases"
@@ -247,7 +277,7 @@ Set the punishment for the max amount of mentions one user can send per message.
 === "Usage"
 
 	```md
-	!mentionspam punishment|punishments <action>
+	!mentionspam punishment|punishments <punishments>
 	```
 
 === "Aliases"
@@ -276,7 +306,7 @@ Sets a max message count for users per x seconds
 	```md
 	!messagespam|maxmessages|ratelimit <message_rate> <seconds>
 	!messagespam|maxmessages|ratelimit disable 
-	!messagespam|maxmessages|ratelimit punishment <action>
+	!messagespam|maxmessages|ratelimit punishment <punishments>
 	```
 
 === "Aliases"
@@ -313,7 +343,7 @@ Set the punishment for the max amount of message every x seconds. Combining kick
 === "Usage"
 
 	```md
-	!messagespam punishment|punishments <action>
+	!messagespam punishment|punishments <punishments>
 	```
 
 === "Aliases"

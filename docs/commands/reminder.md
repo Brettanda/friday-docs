@@ -8,6 +8,8 @@ title: Reminder
 
 ## Reminder
 
+Create a reminder for a certain time in the future. 
+
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
@@ -24,10 +26,19 @@ title: Reminder
 	timer,remind
 	```
 
+=== "Examples"
+	```md
+	!reminder 20m go buy food
+	!timer do something in 20m
+	!remind jan 1st happy new years
+	```
+
 ### Clear
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
+
+Delete all your reminders. 
 
 === "Usage"
 
@@ -39,6 +50,8 @@ title: Reminder
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
+
+Delete a reminder. 
 
 === "Usage"
 
@@ -52,10 +65,19 @@ title: Reminder
 	remove,cancel
 	```
 
+=== "Examples"
+
+	```md
+	!reminder delete 1
+	!timer remove 200
+	```
+
 ### List
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
+
+List all reminders. 
 
 === "Usage"
 

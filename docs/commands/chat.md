@@ -32,6 +32,18 @@ Clear the current chat channel
 	!chatchannel clear 
 	```
 
+## Persona
+
+Change Friday's persona
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!persona 
+	```
+
 ## Reset
 
 Resets Friday's chat history. Helps if Friday is repeating messages
