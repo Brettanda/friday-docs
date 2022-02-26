@@ -47,6 +47,18 @@ Get the invite link to add me to your server
 	!invite 
 	```
 
+## Roleinfo
+
+Shows information about the role
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!roleinfo <role>
+	```
+
 ## Serverinfo
 
 Shows information about the server

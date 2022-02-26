@@ -72,6 +72,7 @@ Make a poll. Contain each option in qoutes `'option' 'option 2'`
 === "Examples"
 	```md
 	!poll "this is a title" '1' '2' '3'
+	!poll "Do you like being pinged for random things" Yes No "I just mute everything"
 	```
 
 ## Rockpaperscissors
