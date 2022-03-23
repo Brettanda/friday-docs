@@ -6,6 +6,35 @@ description: Fun games and other commands to give more life to your Discord serv
 
 Fun games and other commands to give more life to your Discord server.
 
+## 8ball
+
+Ask the magic 8ball a question
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!8ball <question>
+	```
+
+## Choice
+
+Pick a random item from a list. For multiple items, separate them with a comma.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!choice|pick|select <choices>
+	```
+
+=== "Aliases"
+	```md
+	pick,select
+	```
+
 ## Coinflip
 
 Flip a coin
@@ -57,6 +86,13 @@ Play minesweeper
 	ms
 	```
 
+=== "Examples"
+	```md
+	!minesweeper
+	!ms 9 10
+	!minesweeper 5 5
+	```
+
 ## Poll
 
 Make a poll. Contain each option in qoutes `'option' 'option 2'`
@@ -73,6 +109,18 @@ Make a poll. Contain each option in qoutes `'option' 'option 2'`
 	```md
 	!poll "this is a title" '1' '2' '3'
 	!poll "Do you like being pinged for random things" Yes No "I just mute everything"
+	```
+
+## Rng
+
+Get a random number between the given range
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!rng <start> <end>
 	```
 
 ## Rockpaperscissors

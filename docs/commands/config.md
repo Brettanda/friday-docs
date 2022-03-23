@@ -19,6 +19,11 @@ The channel where bot commands live.
 	!botchannel clear 
 	```
 
+=== "Examples"
+	```md
+	!botchannel #botspam
+	```
+
 ### Clear
 
 ??? missing "Does not have a slash command to match"
