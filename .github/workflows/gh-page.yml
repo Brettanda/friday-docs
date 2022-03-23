@@ -1,0 +1,20 @@
+name: Git hub pages
+on:
+  push:
+    branches:
+      - master 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Install dependencies
+        run: |
+          python -m venv ~/venv
+          . ~/venv/bin/activate
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
+      - run: mkdocs gh-deploy --force
