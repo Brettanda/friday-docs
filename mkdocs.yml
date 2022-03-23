@@ -6,7 +6,7 @@ docs_dir: docs
 repo_url: https://github.com/Brettanda/friday-docs
 repo_name: brettanda/friday-docs
 edit_uri: ''
-copyright: Copyright &copy; 2020 - 2021 Brett Anda
+copyright: Copyright &copy; 2020 - 2022 Brett Anda
 theme:
   name: material
   locale: en
@@ -80,7 +80,7 @@ extra:
   #     link: /en/
   #     lang: en
   social:
-    - icon: fontawesome/solid/globe-americas
+    - icon: fontawesome/solid/globe
       link: //brettanda.ca
     - icon: fontawesome/brands/github
       link: //github.com/Brettanda

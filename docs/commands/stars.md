@@ -1,14 +1,6 @@
 ---
 title: Stars
-description: A starboard to upvote posts obviously.
-
-There are two ways to make use of this feature, the first is
-via reactions, react to a message with ⭐ and
-the bot will automatically add (or remove) it to the starboard.
-
-The second way is via Developer Mode. Enable it under Settings >
-Appearance > Developer Mode and then you get access to Copy ID
-and using the star/unstar commands.
+description: A starboard to upvote posts obviously.\nThere are two ways to make use of this feature, the first is via reactions, react to a message with ⭐ and the bot will automatically add (or remove) it to the starboard.\nThe second way is via Developer Mode. Enable it under Settings > Appearance > Developer Mode and then you get access to Copy ID and using the star/unstar commands.
 ---
 # Stars
 
