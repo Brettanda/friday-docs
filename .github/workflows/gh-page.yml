@@ -1,4 +1,4 @@
-name: Git hub pages
+name: GitHhub pages
 on:
   push:
     branches:
@@ -17,4 +17,6 @@ jobs:
           . ~/venv/bin/activate
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then python -m pip install -r requirements.txt; fi
-      - run: mkdocs gh-deploy --force
+      - run: |
+          . ~/venv/bin/activate
+          mkdocs gh-deploy --force
