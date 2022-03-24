@@ -2,7 +2,7 @@
 description: Everything you need to know about talking with the Friday Discord bot and what to expect.
 ---
 
-# Chating with Friday
+# Chatting with Friday
 
 Friday is a chatbot so these are the ways to make sure that if Friday has a response that you get that response
 
