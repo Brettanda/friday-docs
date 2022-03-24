@@ -13,6 +13,10 @@ Friday will respond to @mentions, if you reply to a message from Friday or the c
 Because Friday "thinks"/generates her own responses I am not currently sure why this is happening (lol). The current workaround is to use the [`!reset`](/commands/chat/#reset) command, which resets her chat history
 
 
-## How to use bot?
+## How to use the bot?
 
 For commands, they are all listed if you use the command `!help` or on <https://docs.friday-bot.com>. For chat just mention friday and she will respond to your message
+
+## How do I make a channel where I don't need to mention the bot to chat?
+
+The chatchannel command is what you're looking for. `!chatchannel #channel` and more information on <https://docs.friday-bot.com/commands/chat/#chatchannel>.
