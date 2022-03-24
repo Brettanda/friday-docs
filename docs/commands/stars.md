@@ -38,8 +38,14 @@ You can only star a message once.
 	!star migrate 
 	!star random 
 	!star show <message>
-	!star stats <member>
+	!star stats [member]
 	!star unlock 
+	```
+
+=== "Examples"
+	```md
+	!star 707520808448294983
+	!star https://discord.com/channels/707441352367013899/707458929696702525/707520808448294983
 	```
 
 ### Clean
@@ -60,6 +66,13 @@ This command requires the Manage Server permission.
 
 	```md
 	!star clean <stars>
+	```
+
+=== "Examples"
+
+	```md
+	!star clean 1
+	!star clean 3
 	```
 
 ### Limit
@@ -91,6 +104,13 @@ You must have Manage Server permissions to use this.
 
 	```md
 	threshold
+	```
+
+=== "Examples"
+
+	```md
+	!star limit 3
+	!star threshold 5
 	```
 
 ### Lock
@@ -170,6 +190,13 @@ You can only use this command once per 10 seconds.
 	!star show <message>
 	```
 
+=== "Examples"
+
+	```md
+	!star show 707520808448294983
+	!star show https://discord.com/channels/707441352367013899/707458929696702525/707520808448294983
+	```
+
 ### Stats
 
 ??? missing "Does not have a slash command to match"
@@ -180,7 +207,15 @@ Shows statistics on the starboard usage of the server or a member.
 === "Usage"
 
 	```md
-	!star stats <member>
+	!star stats [member]
+	```
+
+=== "Examples"
+
+	```md
+	!star stats
+	!star stats 215227961048170496
+	!star stats @Motostar
 	```
 
 ### Unlock
@@ -250,4 +285,10 @@ functionality.
 === "Usage"
 	```md
 	!unstar <message>
+	```
+
+=== "Examples"
+	```md
+	!unstar 707520808448294983
+	!unstar https://discord.com/channels/707441352367013899/707458929696702525/707520808448294983
 	```
