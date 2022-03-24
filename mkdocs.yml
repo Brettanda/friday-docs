@@ -29,7 +29,7 @@ theme:
         name: Switch to light mode
   features:
     - navigation.top
-    # - navigation.instant # caches everything on live site
+    - navigation.instant # caches everything on live site
     - navigation.sections
     # - navigation.tabs
     # - navigation.indexes
@@ -69,9 +69,9 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css
 extra:
   homepage: https://friday-bot.com
-  # analytics:
-  #   provider: google
-  #   property: G-41TXJVRWT0
+  analytics:
+    provider: google
+    property: UA-142551610-4
   version:
     default: dev
     provider: mike
