@@ -31,7 +31,7 @@ theme:
     - navigation.top
     - navigation.instant # caches everything on live site
     - navigation.sections
-    # - navigation.tabs
+    - navigation.tabs
     # - navigation.indexes
     - search.suggest
     # - search.highlight
@@ -88,3 +88,32 @@ extra:
       link: //discord.gg/XP4avQ449V
     - icon: fontawesome/brands/patreon
       link: //www.patreon.com/fridaybot
+nav:
+  - Home:
+    - Home: index.md
+    - FAQ: faq.md
+  - Chat:
+    - Chat: chat/index.md
+    - Commands: commands/chat.md
+  - Moderation:
+    - Moderation: commands/moderation.md
+    - Automod: commands/automod.md
+    - Logging: commands/logging.md
+    - Welcome: commands/welcome.md
+  - Media:
+    - Music: commands/music.md
+    - Redditlinks: commands/redditlink.md
+  - Premium:
+    - Patreon: commands/patreons.md
+    - Voting: commands/topgg.md
+  - Fun:
+    - Games: commands/fun.md
+    - Dice: commands/dice.md
+    - Meme: commands/meme.md
+  - Utilities:
+    - General: commands/general.md
+    - Issue: commands/issue.md
+    - Support: commands/support.md
+    - Ping: commands/ping.md
+    - Reminders: commands/reminder.md
+    - Starboard: commands/stars.md
