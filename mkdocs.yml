@@ -9,6 +9,7 @@ edit_uri: ''
 copyright: Copyright &copy; 2020 - 2022 Brett Anda
 theme:
   name: material
+  custom_dir: overrides
   locale: en
   highlightjs: true
   language: en
