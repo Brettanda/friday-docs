@@ -72,3 +72,18 @@ Make Friday say what ever you want
 	```md
 	repeat
 	```
+
+## Silentsay
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!silentsay|saysilent <content>
+	```
+
+=== "Aliases"
+	```md
+	saysilent
+	```

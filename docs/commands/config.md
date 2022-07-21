@@ -85,31 +85,6 @@ Enables the selected command(s).
 	!enable <command>
 	```
 
-## Language
-
-Change the language that I will speak. This currently only applies to the chatbot messages not the commands.
-
-??? missing "Does not have a slash command to match"
-	Learn more about [slash commands](/#slash-commands)
-
-=== "Usage"
-	```md
-	!language|lang 
-	```
-
-=== "Aliases"
-	```md
-	lang
-	```
-
-=== "Examples"
-	```md
-	!language en
-	!lang es
-	!language english
-	!lang spanish
-	```
-
 ## Prefix
 
 Sets the prefix for Fridays commands
@@ -119,12 +94,11 @@ Sets the prefix for Fridays commands
 
 === "Usage"
 	```md
-	!prefix [new_prefix='!']
+	!prefix <new_prefix>
 	```
 
 === "Examples"
 	```md
-	!prefix
 	!prefix ?
 	!prefix f!
 	```
@@ -153,6 +127,31 @@ Restricts the selected command to the bot channel. Ignored with manage server pe
 	!restrict list 
 	```
 
+## Serverlanguage
+
+Change the language that I will speak in a server. For application commands, this will be overridden by your client settings.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!serverlanguage|serverlang|guildlang|guildlanguage <language>
+	```
+
+=== "Aliases"
+	```md
+	serverlang,guildlang,guildlanguage
+	```
+
+=== "Examples"
+	```md
+	!serverlanguage en
+	!serverlang es
+	!guildlang english
+	!guildlanguage Español
+	```
+
 ## Unrestrict
 
 Unrestricts the selected command.
@@ -175,4 +174,29 @@ Recieve updates on new features and changes for Friday
 === "Usage"
 	```md
 	!updates <channel>
+	```
+
+## Userlanguage
+
+Change the language that I will speak to you as a user. For application commands, this will be overridden by your client settings.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!userlanguage|userlang <language>
+	```
+
+=== "Aliases"
+	```md
+	userlang
+	```
+
+=== "Examples"
+	```md
+	!userlanguage en
+	!userlang es
+	!userlanguage english
+	!userlang Español
 	```
