@@ -6,6 +6,46 @@ description: Chat with Friday, say something on Friday's behalf, and more with t
 
 Chat with Friday, say something on Friday's behalf, and more with the chat commands.
 
+## Chat
+
+Chat with Friday, powered by GPT-3 and get a response.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!chat <message>
+	!chat info 
+	!chat reset 
+	```
+
+### Info
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Displays information about the current conversation.
+
+=== "Usage"
+
+	```md
+	!chat info 
+	```
+
+### Reset
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Resets Friday's chat history. Helps if Friday is repeating messages
+
+=== "Usage"
+
+	```md
+	!chat reset 
+	```
+
 ## Chatchannel
 
 Set the current channel so that I will always try to respond with something
@@ -17,6 +57,12 @@ Set the current channel so that I will always try to respond with something
 	```md
 	!chatchannel <channel>
 	!chatchannel clear 
+	!chatchannel webhook <enable>
+	```
+
+=== "Examples"
+	```md
+	!chatchannel #channel
 	```
 
 ### Clear
@@ -30,6 +76,19 @@ Clear the current chat channel
 
 	```md
 	!chatchannel clear 
+	```
+
+### Webhook
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Toggles webhook chatting with Friday in the current chat channel
+
+=== "Usage"
+
+	```md
+	!chatchannel webhook <enable>
 	```
 
 ## Persona

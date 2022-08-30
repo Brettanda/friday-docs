@@ -8,7 +8,7 @@ Roll some dice with advantage or just do some basic math.
 
 ## Dice
 
-D&D dice rolling
+Dungeons and Dragons dice rolling
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)

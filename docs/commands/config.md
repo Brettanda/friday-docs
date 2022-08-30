@@ -1,10 +1,10 @@
 ---
 title: Config
-
+description: The general configuration commands for Friday
 ---
 # Config
 
-
+The general configuration commands for Friday
 
 ## Botchannel
 
@@ -121,6 +121,8 @@ Restricts the selected command to the bot channel. Ignored with manage server pe
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
+Lists the restricted commands.
+
 === "Usage"
 
 	```md
@@ -129,27 +131,19 @@ Restricts the selected command to the bot channel. Ignored with manage server pe
 
 ## Serverlanguage
 
-Change the language that I will speak in a server. For application commands, this will be overridden by your client settings.
+Change the default language that I will speak in a server. Doesn't affect application commands
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
 === "Usage"
 	```md
-	!serverlanguage|serverlang|guildlang|guildlanguage <language>
+	!serverlanguage|serverlang|guildlang|guildlanguage 
 	```
 
 === "Aliases"
 	```md
 	serverlang,guildlang,guildlanguage
-	```
-
-=== "Examples"
-	```md
-	!serverlanguage en
-	!serverlang es
-	!guildlang english
-	!guildlanguage Español
 	```
 
 ## Unrestrict
@@ -178,25 +172,17 @@ Recieve updates on new features and changes for Friday
 
 ## Userlanguage
 
-Change the language that I will speak to you as a user. For application commands, this will be overridden by your client settings.
+Change the language that I will speak to you as a user. This doesn't affect application commands
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
 === "Usage"
 	```md
-	!userlanguage|userlang <language>
+	!userlanguage|userlang 
 	```
 
 === "Aliases"
 	```md
 	userlang
-	```
-
-=== "Examples"
-	```md
-	!userlanguage en
-	!userlang es
-	!userlanguage english
-	!userlang Español
 	```
