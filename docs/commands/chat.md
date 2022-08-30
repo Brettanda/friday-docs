@@ -91,6 +91,15 @@ Toggles webhook chatting with Friday in the current chat channel
 	!chatchannel webhook <enable>
 	```
 
+=== "Examples"
+
+	```md
+	!chatchannel webhook 1
+	!chatchannel webhook false
+	!chatchannel webhook true
+	!chatchannel webhook 0
+	```
+
 ## Persona
 
 Change Friday's persona
