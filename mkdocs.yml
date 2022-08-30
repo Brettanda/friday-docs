@@ -96,6 +96,8 @@ nav:
   - Chat:
     - Chat: chat/index.md
     - Commands: commands/chat.md
+  - Config:
+    - Config: commands/config.md
   - Moderation:
     - Moderation: commands/moderation.md
     - Automod: commands/automod.md
