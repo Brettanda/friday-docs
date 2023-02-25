@@ -65,6 +65,8 @@ Activate the server that you would like to apply your patronage to
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
+Updates Friday to recognize your Patreon tier and guilds.
+
 === "Usage"
 
 	```md

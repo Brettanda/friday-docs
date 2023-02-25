@@ -94,10 +94,10 @@ Toggles webhook chatting with Friday in the current chat channel
 === "Examples"
 
 	```md
+	!chatchannel webhook 0
+	!chatchannel webhook true
 	!chatchannel webhook 1
 	!chatchannel webhook false
-	!chatchannel webhook true
-	!chatchannel webhook 0
 	```
 
 ## Persona
