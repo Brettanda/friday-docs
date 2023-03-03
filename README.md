@@ -1,6 +1,6 @@
 # Friday bot
 
-Friday is a chatbot powered by GPT-3, with powerful moderation tools, games, and music.
+Friday is a chatbot powered by ChatGPT, with powerful moderation tools, games, and music.
 
 ## [Web dashboard](https://friday-bot.com)
 

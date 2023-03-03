@@ -8,7 +8,7 @@ Chat with Friday, say something on Friday's behalf, and more with the chat comma
 
 ## Chat
 
-Chat with Friday, powered by GPT-3 and get a response.
+Chat with Friday, powered by ChatGPT and get a response.
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
