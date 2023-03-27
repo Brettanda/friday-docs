@@ -1,14 +1,14 @@
 ---
 title: Reminder
-
+description: Set reminders for yourself
 ---
 # Reminder
 
-
+Set reminders for yourself
 
 ## Reminder
 
-Create a reminder for a certain time in the future. 
+Create a reminder for a certain time in the future.
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -38,7 +38,7 @@ Create a reminder for a certain time in the future.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Delete all your reminders. 
+Delete all your reminders.
 
 === "Usage"
 
@@ -51,7 +51,7 @@ Delete all your reminders.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Delete a reminder. 
+Delete a reminder.
 
 === "Usage"
 
@@ -77,10 +77,50 @@ Delete a reminder.
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-List all reminders. 
+List all reminders.
 
 === "Usage"
 
 	```md
 	!reminder list 
+	```
+
+## Timezone
+
+Commands related to managing timezone info.
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+=== "Usage"
+	```md
+	!timezone 
+	!timezone clear 
+	!timezone set <timezone>
+	```
+
+### Clear
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Clears your timezone.
+
+=== "Usage"
+
+	```md
+	!timezone clear 
+	```
+
+### Set
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Sets your timezone for all related commands.
+
+=== "Usage"
+
+	```md
+	!timezone set <timezone>
 	```
