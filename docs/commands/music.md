@@ -168,7 +168,7 @@ Pause the currently playing song.
 
 ## Play
 
-Follow this command with the title of a song to search for it or just paste the Youtube/SoundCloud url if the search gives and undesirable result
+Play or queue a song with the given query.
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -190,7 +190,7 @@ Follow this command with the title of a song to search for it or just paste the 
 
 ## Queue
 
-shows the song queue
+Display the players queued songs.
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -211,7 +211,7 @@ shows the song queue
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
 
-Remove an item from the queue
+Remove a song from the queue by index.
 
 === "Usage"
 
