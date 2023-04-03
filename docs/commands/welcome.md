@@ -8,7 +8,7 @@ title: Welcome
 
 ## Welcome
 
-Friday's settings for welcomeing new members to your servers
+Friday's settings for welcoming new members to your servers
 
 ??? missing "Does not have a slash command to match"
 	Learn more about [slash commands](/#slash-commands)
@@ -16,10 +16,24 @@ Friday's settings for welcomeing new members to your servers
 === "Usage"
 	```md
 	!welcome 
-	!welcome channel [channel]
+	!welcome ai <enabled>
+	!welcome channel <channel>
 	!welcome display 
-	!welcome message [message]
-	!welcome role [role]
+	!welcome message <message>
+	!welcome role <role>
+	```
+
+### Ai
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Allows Friday to respond with a unique AI generated messages for every new member to the server
+
+=== "Usage"
+
+	```md
+	!welcome ai <enabled>
 	```
 
 ### Channel
