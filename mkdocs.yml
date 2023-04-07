@@ -101,7 +101,7 @@ nav:
   - Moderation:
     - Moderation: commands/moderation.md
     - Automod: commands/automod.md
-    - Logging: commands/logging.md
+    - Logging: commands/modlogging.md
     - Welcome: commands/welcome.md
   - Media:
     - Music: commands/music.md
