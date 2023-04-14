@@ -57,7 +57,10 @@ Set the current channel so that I will always try to respond with something
 	```md
 	!chatchannel <channel>
 	!chatchannel clear 
-	!chatchannel webhook <enable>
+	!chatchannel list 
+	!chatchannel persona <channel>
+	!chatchannel remove <channel>
+	!chatchannel webhook <channel> <enable>
 	```
 
 === "Examples"
@@ -78,6 +81,45 @@ Clear the current chat channel
 	!chatchannel clear 
 	```
 
+### List
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Lists the channels that Friday will always try to respond with something
+
+=== "Usage"
+
+	```md
+	!chatchannel list 
+	```
+
+### Persona
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Change Friday's persona for a chat channel
+
+=== "Usage"
+
+	```md
+	!chatchannel persona <channel>
+	```
+
+### Remove
+
+??? missing "Does not have a slash command to match"
+	Learn more about [slash commands](/#slash-commands)
+
+Removes a chat channel
+
+=== "Usage"
+
+	```md
+	!chatchannel remove <channel>
+	```
+
 ### Webhook
 
 ??? missing "Does not have a slash command to match"
@@ -88,28 +130,16 @@ Toggles webhook chatting with Friday in the current chat channel
 === "Usage"
 
 	```md
-	!chatchannel webhook <enable>
+	!chatchannel webhook <channel> <enable>
 	```
 
 === "Examples"
 
 	```md
-	!chatchannel webhook 0
-	!chatchannel webhook true
-	!chatchannel webhook 1
-	!chatchannel webhook false
-	```
-
-## Persona
-
-Change Friday's persona
-
-??? missing "Does not have a slash command to match"
-	Learn more about [slash commands](/#slash-commands)
-
-=== "Usage"
-	```md
-	!persona 
+	!chatchannel webhook #chatbot 1
+	!chatchannel webhook #chatchannel false
+	!chatchannel webhook #chatchannel true
+	!chatchannel webhook #chatbot 0
 	```
 
 ## Reset
